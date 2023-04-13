@@ -13,6 +13,7 @@ class _loginPageState extends State<loginPage> {
 
    TextEditingController phone = new TextEditingController();
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,6 +56,7 @@ class _loginPageState extends State<loginPage> {
                       border: OutlineInputBorder(),
                       labelText: 'phone',
                       hintText: 'Enter Phone',
+
                     ),
                   ),
                 ),
